@@ -25,6 +25,9 @@ pub mod testing;
 
 pub mod usbbindings;
 
+pub mod plugin;
+pub mod debug;
+
 use bindings::os_sched_exit;
 
 use core::{ffi::c_void, panic::PanicInfo};
