@@ -26,7 +26,7 @@ pub mod testing;
 pub mod usbbindings;
 
 pub mod plugin;
-pub mod debug;
+pub mod string;
 
 use bindings::os_sched_exit;
 
